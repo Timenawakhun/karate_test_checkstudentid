@@ -98,3 +98,4 @@ Feature: checkStudentId
     And match $.message == "#notnull"
     And match $.message == "#string"
     And match $.message != "#number"
+    
